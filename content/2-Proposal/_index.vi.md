@@ -57,7 +57,7 @@ Triển khai DACSWEBSK trên AWS theo mô hình **multi-tier**:
 
 Hệ thống sau triển khai được tổ chức theo các luồng chính:
 
-Kiến trúc hệ thống DACSWEBSK trên AWS
+![Kiến trúc hệ thống DACSWEBSK trên AWS](/images/2-Proposal/dacswebsk-architecture-diagram.png)
 
 *Dịch vụ AWS sử dụng*
 

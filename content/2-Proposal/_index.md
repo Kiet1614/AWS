@@ -55,7 +55,7 @@ Deploy DACSWEBSK on AWS using a **multi-tier** model:
 
 The deployed system is organized around these main flows:
 
-DACSWEBSK architecture on AWS
+![DACSWEBSK architecture on AWS](/images/2-Proposal/dacswebsk-architecture-diagram.png)
 
 *AWS services used*
 
