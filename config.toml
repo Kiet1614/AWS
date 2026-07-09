@@ -1,5 +1,5 @@
 baseURL = "https://kiet1614.github.io/AWS/"
-relativeURLs = true
+relativeURLs = false
 canonifyURLs = false
 defaultContentLanguage = "en"
 
@@ -16,7 +16,7 @@ home = [ "HTML", "RSS", "JSON"]
   # Git hub repo link
   editURL = ""
   description = ""
-  author = "dienquan5436@gmail.com"
+  author = "tuankiet@gmail.com"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
@@ -48,6 +48,8 @@ weight = 20
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+    [markup.goldmark.renderHooks.image]
+      useEmbedded = "never"
 
 # resources.GetRemote in layouts/shortcodes/ghcontributors.html
 [security.http]
