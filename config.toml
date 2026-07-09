@@ -1,5 +1,5 @@
-baseURL = "https://workshop-sample.fcjuni.com/"
-relativeURLs = false
+baseURL = "https://kiet1614.github.io/AWS/"
+relativeURLs = true
 canonifyURLs = false
 defaultContentLanguage = "en"
 
