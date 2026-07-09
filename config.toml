@@ -49,7 +49,6 @@ weight = 20
     [markup.goldmark.renderer]
       unsafe = true
     [markup.goldmark.renderHooks.image]
-      enableDefault = false
       useEmbedded = "never"
 
 # resources.GetRemote in layouts/shortcodes/ghcontributors.html
