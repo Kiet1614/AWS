@@ -16,7 +16,7 @@ home = [ "HTML", "RSS", "JSON"]
   # Git hub repo link
   editURL = ""
   description = ""
-  author = "tuankiet@gmail.com"
+  author = "tuankiet6584@gmail.com"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
@@ -49,6 +49,7 @@ weight = 20
     [markup.goldmark.renderer]
       unsafe = true
     [markup.goldmark.renderHooks.image]
+      enableDefault = false
       useEmbedded = "never"
 
 # resources.GetRemote in layouts/shortcodes/ghcontributors.html
